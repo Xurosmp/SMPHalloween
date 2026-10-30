@@ -134,3 +134,137 @@ pumpkins:
     money: 600000
     stars: 50
     description: "Man sieht ihn nur, wenn er will."
+
+  # ===================== Erweiterung (16 weitere Kürbisse) =====================
+  autumn:
+    name: "Herbst-Kürbis"
+    rarity: COMMON
+    weight: 85
+    block: ORANGE_TERRACOTTA
+    money: 1000
+    stars: 1
+    description: "Riecht nach Laub und Lagerfeuer."
+  patch:
+    name: "Flicken-Kürbis"
+    rarity: COMMON
+    weight: 75
+    block: ORANGE_WOOL
+    money: 1100
+    stars: 1
+    description: "Zusammengenäht von der Vogelscheuche."
+  honey:
+    name: "Honig-Kürbis"
+    rarity: COMMON
+    weight: 70
+    block: HONEYCOMB_BLOCK
+    money: 1200
+    stars: 1
+    description: "Klebrig und überraschend süß."
+  clay:
+    name: "Ton-Kürbis"
+    rarity: COMMON
+    weight: 65
+    block: TERRACOTTA
+    money: 1200
+    stars: 1
+    description: "Vom Töpfer vergessen."
+
+  candle:
+    name: "Kerzen-Kürbis"
+    rarity: RARE
+    weight: 28
+    block: OCHRE_FROGLIGHT
+    money: 5000
+    stars: 2
+    description: "Sein Licht tanzt im Wind."
+  bat:
+    name: "Fledermaus-Kürbis"
+    rarity: RARE
+    weight: 24
+    block: POLISHED_BLACKSTONE
+    money: 5500
+    stars: 2
+    description: "Hängt nachts kopfüber im Geäst."
+  frost:
+    name: "Frost-Kürbis"
+    rarity: RARE
+    weight: 20
+    block: PACKED_ICE
+    money: 6000
+    stars: 3
+    description: "Ein eiskalter Schauer läuft dir über den Rücken."
+  spore:
+    name: "Sporen-Kürbis"
+    rarity: RARE
+    weight: 18
+    block: MYCELIUM
+    money: 6500
+    stars: 3
+    description: "Aus dem Myzel eines alten Pilzwaldes."
+
+  soul:
+    name: "Seelen-Kürbis"
+    rarity: EPIC
+    weight: 9
+    block: SOUL_SOIL
+    money: 28000
+    stars: 6
+    description: "Flüstert die Namen Verlorener."
+  bloodmoon:
+    name: "Blutmond-Kürbis"
+    rarity: EPIC
+    weight: 7
+    block: NETHER_WART_BLOCK
+    money: 32000
+    stars: 7
+    description: "Nur bei Blutmond reif."
+  cursed:
+    name: "Verfluchter Kürbis"
+    rarity: EPIC
+    weight: 5
+    block: WARPED_WART_BLOCK
+    money: 38000
+    stars: 8
+    description: "Wer ihn trägt, hat Pech. Meistens."
+
+  ender:
+    name: "Ender-Kürbis"
+    rarity: LEGENDARY
+    weight: 2.5
+    block: PURPUR_BLOCK
+    money: 110000
+    stars: 16
+    description: "Teleportiert sich, wenn man hinsieht."
+  sculk:
+    name: "Sculk-Kürbis"
+    rarity: LEGENDARY
+    weight: 1.8
+    block: SCULK
+    money: 130000
+    stars: 18
+    description: "Er hört jeden deiner Schritte."
+  diamond:
+    name: "Diamant-Kürbis"
+    rarity: LEGENDARY
+    weight: 1.2
+    block: DIAMOND_BLOCK
+    money: 160000
+    stars: 22
+    description: "Funkelt heller als jede Laterne."
+
+  netherite:
+    name: "Netherit-Kürbis"
+    rarity: MYTHIC
+    weight: 0.35
+    block: NETHERITE_BLOCK
+    money: 700000
+    stars: 60
+    description: "Selbst Lava kann ihm nichts anhaben."
+  origin:
+    name: "Der Ursprungskürbis"
+    rarity: MYTHIC
+    weight: 0.2
+    block: BEACON
+    money: 1000000
+    stars: 100
+    description: "Der allererste Kürbis. Sein Licht sieht man von weit her."

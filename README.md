@@ -4,7 +4,7 @@ Halloween-Event als **Zusatz-Plugin für SMPCore** (Paper 1.21.4+, Java 21). SMP
 
 ## Was es macht
 - Überall in der Welt erscheinen **Halloween-Kürbisse** (echte Blöcke mit Partikeln, Namensschild und Action-Bar-Hinweis mit Pfeil + Entfernung).
-- Es gibt **15 Kürbisse in 5 Seltenheiten**: Gewöhnlich, Selten, Episch, Legendär, Mythisch (alles in `pumpkins.yml` änderbar).
+- Es gibt **31 Kürbisse in 5 Seltenheiten**: Gewöhnlich, Selten, Episch, Legendär, Mythisch (alles in `pumpkins.yml` änderbar).
 - Sammeln per **Abbauen oder Rechtsklick** (Bedrock-freundlich).
 - **Kürbis-Index** (`/halloween`): Jeder Kürbis ist erst `???`. Beim **ersten Fund** wird er im Index freigeschaltet und du bekommst **Geld + Stars** (Stars = SMPCore-Kristalle).
 - Doppelte Funde geben einen kleinen Geld-Bonus (Standard 15 %).
