@@ -1,0 +1,20 @@
+name: SMPHalloween
+version: '${project.version}'
+main: de.smphalloween.HalloweenPlugin
+api-version: '1.21'
+depend: [SMPCore]
+description: Halloween-Event für SMPCore - Kürbis-Index mit Seltenheiten, Geld- und Stars-Belohnungen
+
+commands:
+  halloween:
+    description: Kürbis-Index / Halloween-Event
+    aliases: [hw, kuerbis, pumpkins]
+    usage: /<command> [top|hints|help]
+
+permissions:
+  halloween.use:
+    description: Index öffnen und Kürbisse sammeln
+    default: true
+  halloween.admin:
+    description: Event verwalten
+    default: op

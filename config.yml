@@ -1,0 +1,50 @@
+# ===== SMPHalloween =====
+# Chat-Prefix dieses Plugins (MiniMessage)
+prefix: "<gold><bold>HALLOWEEN</bold> <dark_gray>▸ <gray>"
+
+# Event-Zeitraum (optional). Leer lassen = immer aktiv. Format: yyyy-MM-dd
+# Außerhalb des Zeitraums spawnen keine Kürbisse mehr, der Index bleibt aber abrufbar.
+# Zusätzlich kann das Event jederzeit mit /halloween toggle an/aus geschaltet werden.
+event:
+  start: ""
+  end: ""
+  timezone: "Europe/Berlin"
+
+spawning:
+  worlds: ["world"]          # Welten, in denen Kürbisse spawnen ("*" = alle)
+  interval-seconds: 15       # wie oft versucht wird, neue Kürbisse zu spawnen
+  chance-percent: 60         # Chance pro Spieler und Versuch
+  min-radius: 12             # Mindestabstand zum Spieler
+  max-radius: 48             # Maximalabstand zum Spieler
+  max-per-player: 4          # max. Kürbisse im Umkreis (near-radius) um einen Spieler
+  near-radius: 64
+  max-total: 80              # max. Kürbisse gleichzeitig auf dem ganzen Server
+  lifetime-seconds: 600      # nach dieser Zeit verschwindet ein nicht gesammelter Kürbis
+
+# Namensschild über dem Kürbis (Bedrock zeigt TextDisplays evtl. nicht an -> Partikel + Hinweis helfen trotzdem)
+label:
+  enabled: true
+
+# Action-Bar-Hinweis "Kürbis in der Nähe" mit Pfeil und Entfernung (Spieler können es mit /halloween hints abschalten)
+hints:
+  enabled: true
+  radius: 24
+
+# Ab welcher Seltenheit wird die ERSTE Entdeckung im Chat verkündet / mit Feuerwerk gefeiert?
+# COMMON, RARE, EPIC, LEGENDARY, MYTHIC  (NONE = nie)
+broadcast-from: EPIC
+firework-from: LEGENDARY
+
+# Bereits entdeckter Kürbis nochmal gesammelt: Prozent des Geldes (Stars gibt es dafür nicht)
+duplicate-money-percent: 15
+
+# Bonus, wenn alle Kürbisse einer Seltenheit entdeckt sind (einmalig pro Spieler)
+bonuses:
+  rarity:
+    COMMON:    {money: 5000,    stars: 3}
+    RARE:      {money: 25000,   stars: 8}
+    EPIC:      {money: 100000,  stars: 20}
+    LEGENDARY: {money: 500000,  stars: 50}
+    MYTHIC:    {money: 2500000, stars: 100}
+  # Bonus für den kompletten Index (einmalig)
+  complete: {money: 5000000, stars: 250}

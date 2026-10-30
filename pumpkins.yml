@@ -1,0 +1,136 @@
+# Alle Kürbisse des Index. Reihenfolge im Menü: nach Seltenheit sortiert.
+# Pro Eintrag:
+#   name:        Anzeigename
+#   rarity:      COMMON | RARE | EPIC | LEGENDARY | MYTHIC
+#   weight:      Spawn-Gewicht (höher = häufiger). Wahrscheinlichkeit = weight / Summe aller weights
+#   block:       Block, der in der Welt erscheint (beliebiger Block-Material-Name)
+#   money:       Geld bei der ERSTEN Entdeckung
+#   stars:       Stars (Kristalle) bei der ERSTEN Entdeckung
+#   particle:    (optional) Partikel-Name statt Standard der Seltenheit, z.B. FLAME, WITCH, END_ROD
+#   description: Flavor-Text im Index
+# Neue Kürbisse einfach ergänzen, dann /halloween reload.
+pumpkins:
+  classic:
+    name: "Klassischer Kürbis"
+    rarity: COMMON
+    weight: 100
+    block: PUMPKIN
+    money: 1000
+    stars: 1
+    description: "Der Klassiker. Auf jedem Feld zu finden."
+  carved:
+    name: "Geschnitzter Kürbis"
+    rarity: COMMON
+    weight: 90
+    block: CARVED_PUMPKIN
+    money: 1000
+    stars: 1
+    description: "Jemand hat ihm ein Gesicht verpasst."
+  lantern:
+    name: "Leuchtender Kürbis"
+    rarity: COMMON
+    weight: 80
+    block: JACK_O_LANTERN
+    money: 1200
+    stars: 1
+    description: "Eine Kerze brennt in seinem Inneren."
+  melon:
+    name: "Melonen-Kürbis"
+    rarity: COMMON
+    weight: 70
+    block: MELON
+    money: 1200
+    stars: 1
+    description: "Ist das überhaupt ein Kürbis?"
+
+  moss:
+    name: "Moos-Kürbis"
+    rarity: RARE
+    weight: 30
+    block: MOSS_BLOCK
+    money: 5000
+    stars: 2
+    description: "Überwuchert und uralt."
+  hay:
+    name: "Heu-Kürbis"
+    rarity: RARE
+    weight: 25
+    block: HAY_BLOCK
+    money: 5500
+    stars: 2
+    description: "Die Vogelscheuche hat ihn vergessen."
+  glow:
+    name: "Glühpilz-Kürbis"
+    rarity: RARE
+    weight: 20
+    block: SHROOMLIGHT
+    money: 6000
+    stars: 3
+    description: "Er glimmt in der Dunkelheit."
+
+  bone:
+    name: "Knochen-Kürbis"
+    rarity: EPIC
+    weight: 10
+    block: BONE_BLOCK
+    money: 25000
+    stars: 5
+    description: "Klappert, wenn der Wind weht."
+  haunted:
+    name: "Spuk-Kürbis"
+    rarity: EPIC
+    weight: 8
+    block: CRYING_OBSIDIAN
+    money: 30000
+    stars: 6
+    description: "Er weint violette Tränen."
+  witch:
+    name: "Hexen-Kürbis"
+    rarity: EPIC
+    weight: 6
+    block: AMETHYST_BLOCK
+    money: 35000
+    stars: 7
+    description: "Aus dem Kessel einer Hexe gestohlen."
+
+  hellfire:
+    name: "Höllenfeuer-Kürbis"
+    rarity: LEGENDARY
+    weight: 3
+    block: MAGMA_BLOCK
+    money: 100000
+    stars: 15
+    description: "Direkt aus dem Nether."
+  phantom:
+    name: "Phantom-Kürbis"
+    rarity: LEGENDARY
+    weight: 2
+    block: PEARLESCENT_FROGLIGHT
+    money: 125000
+    stars: 18
+    description: "Schimmert wie ein Geist in der Nacht."
+  ghost:
+    name: "Geisterlaterne"
+    rarity: LEGENDARY
+    weight: 1.5
+    block: SEA_LANTERN
+    money: 150000
+    stars: 20
+    description: "Wer ihr folgt, kommt nie wieder zurück."
+
+  king:
+    name: "Der Kürbiskönig"
+    rarity: MYTHIC
+    weight: 0.6
+    block: GOLD_BLOCK
+    money: 500000
+    stars: 40
+    description: "Herrscher über alle Kürbisse."
+  shadow:
+    name: "Schattenkürbis"
+    rarity: MYTHIC
+    weight: 0.4
+    block: OBSIDIAN
+    money: 600000
+    stars: 50
+    description: "Man sieht ihn nur, wenn er will."
